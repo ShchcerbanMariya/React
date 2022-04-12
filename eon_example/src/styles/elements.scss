@@ -1,0 +1,62 @@
+.cta-banner {
+    display: flex;
+    font-family: "EonBrix", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, helvetica, arial, sans-serif;
+    font-weight: bold;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.cta-banner__text {
+    padding: 0;
+    font-size: large;
+    margin: 10px;
+    padding: 2%;
+}
+
+.cta-banner__yellow {
+    background-color: yellow;
+    border-radius: 8px;
+}
+.cta-banner__buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.cta-banner__button {
+    background-color: red;
+    border: red solid 1px;
+    border-radius: 7px;
+    height: max-content;
+    text-align: center;
+    width: max-content;
+    padding: 5px;
+}
+
+
+.cta-banner__buttons>a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+#first_btn {
+    background-color: white;
+    color: red;
+}
+
+@media (max-width: 753px) {
+    .cta-banner {
+        flex-direction: column;
+        font-weight: bold;
+    }
+    .cta-banner__buttons {
+        flex-direction: row;
+        align-self: center;
+    }
+    .cta-banner__button {
+        margin: 10px;
+        padding: 5px;
+    }
+}

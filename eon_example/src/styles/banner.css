@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.button {
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: 0;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    z-index: 2;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+}
+
+ul {
+
+    background-color: #fff;
+    color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 8px 12px;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+}
+
+.heder-button {
+    position: relative;
+    width: 36px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.header__app {
+    color: #2b91a3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__app:hover {
+    text-decoration: underline;
+}
+
+.header--controle {
+    color: #2b91a3;
+}
+
+
+.header--logo {
+    height: 24px;
+} 
+
+#e_on--logo {
+    color: red;
+    text-decoration: none;
+    font-family: "EonBrix", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, helvetica, arial, sans-serif;
+    font-size: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header--search {
+    height: 20px;
+    background:url('../../public/images/glass-magnifier.png') no-repeat;
+    background-blend-mode: normal;
+    background-size: contain;
+    margin-left: 5px;
+}
